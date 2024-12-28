@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "icccig",
+  title: "next-icccig",
   description: "Generate images of itunes card content code.",
 };
 
