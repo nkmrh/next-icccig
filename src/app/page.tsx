@@ -9,6 +9,7 @@ export default function Page() {
           This site generate images of itunes card content code. (for readable
           OCR)
         </h2>
+        <Link href="/6MPAY3FFELPE">e.g. https://next-icccig.vercel.app/6MPAY3FFELPE</Link>
       </div>
     </div>
   );
