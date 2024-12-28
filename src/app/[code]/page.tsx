@@ -1,9 +1,10 @@
-type Props = {
-  params: { code: string };
-}
+import Image from 'next/image'
 
-export default function Page({ params }: Props) {
-  return (
-    <h1>{params.code}</h1>
-  );
-}
+const page = async ({ params }: { params: Promise<{ code: string }> }) => {
+  const { code } = await params;
+  const chars = code.split('')
+  console.log()
+  return (<Image src="/font/A.jpg" width={100} height={100} alt=""/>)
+};
+
+export default page;
